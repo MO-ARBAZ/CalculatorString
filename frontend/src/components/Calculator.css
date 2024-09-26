@@ -18,6 +18,9 @@ body {
     width: 350px;
     text-align: center;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures that input and button are centered */
 }
 
 h1 {
@@ -34,6 +37,7 @@ input[type="text"] {
     margin-bottom: 15px;
     font-size: 16px;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    text-align: center; /* Centers the text inside the input */
 }
 
 button {
@@ -67,6 +71,6 @@ h3 {
 
 @media (max-width: 500px) {
     .container {
-        width: 90%; /* Make it responsive */
+        width: 90%;
     }
 }
