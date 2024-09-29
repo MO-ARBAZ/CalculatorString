@@ -6,8 +6,7 @@ const App = () => {
   return (
     <div className="App">
       {" "}
-      {/* Main wrapper div for the application */}
-      <Calculator /> {/* Rendering the Calculator component within the App */}
+      <Calculator />
     </div>
   );
 };
